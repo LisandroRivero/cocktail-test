@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MainContent {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.DrinkListContainer {
+    width: 60%;
+    max-width: 700px;
+    margin: 20px 0 20px 0;
+    background: lightblue;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.DrinkList {
+    width: 600px;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
